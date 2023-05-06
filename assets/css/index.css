@@ -1,0 +1,34 @@
+.btn-presupuesto{
+    background-color: darkseagreen;
+    border: 1px solid #fff;
+}
+.btn-presupuesto:hover{
+    background-color: darkcyan;
+    border: 1px solid darkseagreen;
+    color: darkseagreen;
+}
+.cf-presupuesto{
+    background-color: #69ff67;
+    border: 1px solid #3ecf00;
+}
+.label-presupuesto{
+    color: #027600
+}
+.cf-gasto{
+    background-color: #ff6969;
+    border: 1px solid #cf0000;
+}
+.btn-gasto{
+    background-color: #ff0000;
+    border: 1px solid #cf0000;
+}
+.btn-gasto:hover{
+    background-color: #cf0000;
+    border: 1px solid #cf0000;
+}
+body{
+    background-color: gray;
+}
+.table, h1, h3, h4{
+    color: white;
+}
