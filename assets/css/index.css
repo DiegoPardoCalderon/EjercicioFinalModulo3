@@ -3,7 +3,7 @@
     border: 1px solid #fff;
 }
 .btn-presupuesto:hover{
-    background-color: darkcyan;
+    background-color: rgb(23, 26, 184);
     border: 1px solid darkseagreen;
     color: darkseagreen;
 }
@@ -23,8 +23,8 @@
     border: 1px solid #cf0000;
 }
 .btn-gasto:hover{
-    background-color: #cf0000;
-    border: 1px solid #cf0000;
+    background-color: #1543c1;
+    border: 1px solid #3730a4;
 }
 body{
     background-color: gray;
