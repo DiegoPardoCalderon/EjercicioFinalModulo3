@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,7 @@
 </head>
 
 <body>
-    <main class = "container">
+    <main class ="container">
         <h1>Presupuesto APP</h1>
         <div class="row">
             <form class="col-4 mt-2 rounded-4 cf-presupuesto">
@@ -22,19 +21,20 @@
                 </div>
                 <button type="button" class="btn mb-3 text-white btn-presupuesto">Calcular</button>
             </form>
-            <div class="container col-8">
-                <div class="row">
+                <div class="container col-8">
+                    <div class="row">
+                        <div class="col-4">
+                        <h3>Presupuesto</h3>
+                        <h4 id="presupuesto"></h4>
+                    </div>
                     <div class="col-4">
-                    <h3>Presupuesto</h3>
-                    <h4 id="presupuesto"></h4>
-                </div>
-                <div class="col-4">
-                    <h3>Gastos</h3>
-                    <h4 id="gastos"></h4>
-                </div>
-                <div class="col-4">
-                    <h3>Saldo</h3>
-                    <h4 id="saldo"></h4>
+                        <h3>Gastos</h3>
+                        <h4 id="gastos"></h4>
+                    </div>
+                    <div class="col-4">
+                        <h3>Saldo</h3>
+                        <h4 id="saldo"></h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,11 +42,11 @@
             <form class="col-4 mt-2 rounded-4 cf-gasto">
                 <div class="mb-3">
                     <label for="nombreGasto" class="form-label fw-bold fs-3">Ingrese el Nombre del Gasto</label>
-                    <input type="text" class="form-control" id="nombreGasto" placeholder="Ingrese Nombre">   
+                    <input type="text" class="form-control" id="nombreGasto" placeholder="Nombre">   
                 </div>
                 <div class="mb-3">
                     <label for="gastoId" class="form-label fw-bold fs-3">Ingrese la Cantidad del gasto</label>
-                    <input type="number" class="form-control" id="gastoId" placeholder="Ingrese gasto">
+                    <input type="number" class="form-control" id="gastoId" placeholder="Cantidad">
                 </div>
                 <button type="button" class="btn mb-3 text-white btn-gasto">Añadir Gasto</button>
             </form>
@@ -56,11 +56,10 @@
                         <tr>
                             <th scope="col">Gasto</th>
                             <th scope="col">Valor</th>
-                            <th scope="col">Acciones</th>
+                            <th scope="col">Borrar</th>
                         </tr>
                     </thead>
-                    <tbody id="tabla-gastos">
-                    </tbody>
+                    <tbody id="tabla-gastos"></tbody>                
                 </table>
             </div>
         </div>
